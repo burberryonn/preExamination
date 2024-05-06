@@ -1,0 +1,28 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "jest": "jest -i",
+    "test-part-1": "jest part-1 -i",
+    "test-part-2": "jest part-2 -i",
+    "test-part-3": "jest part-3 -i",
+    "test-part-4": "jest part-4 -i",
+    "test": "npm run test-part-1 && npm run test-part-2 && npm run test-part-3 && npm run test-part-4",
+    "min-1": "jest part-1 -t constructor",
+    "min-2": "jest part-2 -t getFilesFromFolder",
+    "min-3": "jest part-3 -t getNumeric",
+    "min-4": "jest part-4 -i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0"
+  }
+}
